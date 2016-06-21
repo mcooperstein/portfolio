@@ -2,28 +2,176 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- overrides the default to resize images proportionally, while leaving them as is if their width is the same as the device’s width (in either portrait or landscape mode). -->
-    <title>Marc Cooperstein Portfolio</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto|Oswald|Lora|Arvo' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Marc Cooperstein's Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/heroic-features.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
+<body id="page-top">
 
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Marc's Portfolio</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
+    <header class="jumbotron hero-spacer">
+        <h1>I'm Marc, an aspiring web developer based in San Francisco, CA.</h1>
+        <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
+        <p><a class="btn btn-primary btn-large">Call to action!</a>
+        </p>-->
+    </header>
 
+    <!-- Page Content -->
+    <div class="container">
 
+        <!-- Title -->
+        <section id="about">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="images/portfolio-pic.jpg" alt="" height="400px" width="500px">
+                </div>
+                <div class="col-lg-6">
+                    <h3>About Me:</h3>
+                    <p>I am currently enrolled as a student in Thinkful's Front-End Web Development Career Path course. Outside of Thinkful, I put my web development skills to use by teaching kids how to code at the Coder School in San Mateo, CA. In my spare time, I also build websites for friends and family, so I can get more experience with web development and accelerate the learning process. </p>
+                    <p>Prior to pursuing a career in programming, I worked in a variety of roles (both in-house and corporate) for the Bay Area pizza chain, Amici's East Coast Pizzeria. One day, I hope to know as much about computer programming as I do about pizza. </p>
+                </div>
+            </div>
+        </section>
 
-    <script src="http://code.jquery.com/jquery.min.js"></script>
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Latest Projects:</h3>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects -->
+        <section id="projects">
+            <div class="row text-center">
+
+                <div class="col-md-4 col-sm-6 hero-feature">
+                    <div class="thumbnail">
+                        <img src="images/codesitter.png" alt="">
+                        <div class="caption">
+                            <h3>codesitter.com</h3>
+                            <p>A website connecting people to a baby-sitting service that also teaches kids about programming.</p>
+                            <p>
+                                <a href="www.codesitter.com" class="btn btn-default">More Info</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 hero-feature">
+                    <div class="thumbnail">
+                        <img src="images/pet-tracker.png" alt="">
+                        <div class="caption">
+                            <h3>PeTracker</h3>
+                            <p>An application that allows you to track your pet's daily needs, medical records, and appointments.</p>
+                            <p>
+                                <a href="#" class="btn btn-default">More Info</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 hero-feature">
+                    <div class="thumbnail">
+                        <img src="images/angular-to-do.png" alt="">
+                        <div class="caption">
+                            <h3>Angular To-Do List</h3>
+                            <p>A to-do list built with Angular.js</p>
+                            <p>
+                                <a href="#" class="btn btn-default">More Info</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 hero-feature">
+                    <div class="thumbnail">
+                        <img src="images/movie-quiz.png" alt="">
+                        <div class="caption">
+                            <h3>Movie Quiz App</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p>
+                                <a href="#" class="btn btn-default">More Info</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; mcooperstein.com 2016</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <!--<script src="js/scripts.js" type="text/javascript"></script>-->
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>-->
+
 </body>
 
 </html>
