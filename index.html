@@ -11,6 +11,9 @@
 
     <title>Marc Cooperstein's Portfolio</title>
 
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -61,7 +64,7 @@
     </nav>
 
     <header class="jumbotron hero-spacer">
-        <h1>I'm Marc, an aspiring web developer based in San Francisco, CA.</h1>
+        <h1>I'm Marc, an aspiring web developer<br> based in San Francisco, CA.</h1>
         <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
         <p><a class="btn btn-primary btn-large">Call to action!</a>
         </p>-->
@@ -78,11 +81,32 @@
                 </div>
                 <div class="col-lg-6">
                     <h3>About Me:</h3>
-                    <p>I am currently enrolled as a student in Thinkful's Front-End Web Development Career Path course. Outside of Thinkful, I put my web development skills to use by teaching kids how to code at the Coder School in San Mateo, CA. In my spare time, I also build websites for friends and family, so I can get more experience with web development and accelerate the learning process. </p>
+                    <p>I am currently enrolled as a student in Thinkful's Front-End Web Development Career Path course. Outside of Thinkful, I put my web development skills to use by teaching kids how to code at the Coder School in San Mateo, CA. In my spare time, I've also built websites for friends and family, so I could get more experience with web development and accelerate the learning process. </p>
                     <p>Prior to pursuing a career in programming, I worked in a variety of roles (both in-house and corporate) for the Bay Area pizza chain, Amici's East Coast Pizzeria. One day, I hope to know as much about computer programming as I do about pizza. </p>
                 </div>
             </div>
         </section>
+
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-12 panel panel-inverse">
+                <h3>Development/Programming Skills:</h3>
+                <!--</div>-->
+                <div class="col-lg-12 panel-heading">
+                    <ul class="list-group">
+                        <li class="list-group-item">HTML/CSS</li>
+                        <li class="list-group-item">Bootstrap</li>
+                        <li class="list-group-item">jQuery</li>
+                        <li class="list-group-item">Javascript</li>
+                        <li class="list-group-item">Angular</li>
+                        <li class="list-group-item">Git/Github</li>
+                        <li class="list-group-item">NPM</li>
+                        <li class="list-group-item">Gulp</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
 
         <!-- Title -->
         <div class="row">
@@ -99,53 +123,80 @@
                 <div class="col-md-4 col-sm-6 hero-feature">
                     <div class="thumbnail">
                         <a href="www.codesitter.com">
-                            <img src="images/codesitter.png" alt="">
+                            <img src="images/codesitter-edit.png" alt="">
                         </a>
                         <div class="caption">
-                            <a href="www.codesitter.com"><h3>codesitter.com</h3></a>
-                            <p>A website connecting people to a baby-sitting service that also teaches kids about programming.</p>
-                            <p>
-                                <a href="www.codesitter.com" class="btn btn-default">More Info</a>
-                            </p>
+                            <!--<a href="https://www.codesitter.com" target="_blank">-->
+                            <h3>codesitter.com</h3>
+                            <!--</a>-->
+                            <!--<p>A website connecting people to a baby-sitting service that also teaches kids about programming.</p>-->
+                            <button type="button" class="btn btn-default">
+                                <a href="#" data-toggle="modal" data-target="#modal1">More Info</a>
+                            </button>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4 col-sm-6 hero-feature">
                     <div class="thumbnail">
-                        <img src="images/pet-tracker.png" alt="">
+                        <img src="images/credible.png">
+                        <div class="caption">
+                            <h3>crediblearrangements.com</h3>
+                            <button type="button" class="btn btn-default" id="button1">
+                                <a href="#" data-toggle="modal" data-target="#modal2">More Info</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 hero-feature">
+                    <div class="thumbnail">
+                        <img src="images/pet-tracker-edit.png" alt="">
                         <div class="caption">
                             <h3>PeTracker</h3>
-                            <p>An application that allows you to track your pet's daily needs, medical records, and appointments.</p>
-                            <p>
-                                <a href="#" class="btn btn-default">More Info</a>
-                            </p>
+                            <!--<p>An application that allows you to track your pet's daily needs, medical records, and appointments.</p>-->
+                            <button type="button" class="btn btn-default" id="button2">
+                                <a href="#" data-toggle="modal" data-target="#modal3">More Info</a>
+                            </button>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4 col-sm-6 hero-feature">
                     <div class="thumbnail">
-                        <img src="images/angular-to-do.png" alt="">
+                        <img src="images/to-do-list-edit.png" alt="">
                         <div class="caption">
                             <h3>Angular To-Do List</h3>
-                            <p>A to-do list built with Angular.js</p>
-                            <p>
-                                <a href="#" class="btn btn-default">More Info</a>
-                            </p>
+                            <!--<p>A to-do list built with Angular.js</p>-->
+                            <button type="button" class="btn btn-default" id="button3">
+                                <a href="#" data-toggle="modal" data-target="#modal4">More Info</a>
+                            </button>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4 col-sm-6 hero-feature">
                     <div class="thumbnail">
-                        <img src="images/movie-quiz.png" alt="">
+                        <img src="images/flickr.png" alt="">
+                        <div class="caption">
+                            <h3>Flickr API Project</h3>
+                            <!--<p>A to-do list built with Angular.js</p>-->
+                            <button type="button" class="btn btn-default" id="button3">
+                                <a href="#" data-toggle="modal" data-target="#modal5">More Info</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 hero-feature">
+                    <div class="thumbnail">
+                        <img src="images/movie-quiz-edit.png" alt="">
                         <div class="caption">
                             <h3>Movie Quiz App</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p>
-                                <a href="#" class="btn btn-default">More Info</a>
-                            </p>
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
+                            <button type="button" class="btn btn-default" id="button4">
+                                <a href="#" data-toggle="modal" data-target="#modal6">More Info</a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -154,25 +205,179 @@
         </section>
         <!-- /.row -->
 
-        <hr>
 
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; mcooperstein.com 2016</p>
+
+        <div class="modal fade in" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" style="display: block; padding-left: 0px;">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Codesitter.com</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <p class="modal-text">This is a website I made for my sister based on my idea/encouragement that she should parlay her baby-sitting experience and coding skills into a small business.
+                            <br>
+                            <br> Languages and skills used: HTML/CSS, Bootstrap, Formspree, Git/Github</p>
+                    </div>
+                    <div class="modal-footer">
+
+                        <a href="http://www.codesitter.com/" target="_blank" class="btn btn-default modal-btn">Visit Project</a>
+                        <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
-        </footer>
+        </div>
+
+        <div class="modal fade in" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal1Label" style="display: block; padding-left: 0px;">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Crediblearrangements.com</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <p class="modal-text">This is a website I'm in the process of making for a friend. I already purchased the domain name, but am waiting to finish the site before pushing it to the live domain.
+                            <br>
+                            <br> Languages and skills used: HTML/CSS, Bootstrap, Git/Github, photo editing?</p>
+                    </div>
+                    <div class="modal-footer">
+
+                        <a href="https://mcooperstein.github.io/credible-arrangements/" target="_blank" class="btn btn-default modal-btn">Visit Project</a>
+                        <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade in" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal1Label" style="display: block; padding-left: 0px;">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">PeTracker Angular App</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <p class="modal-text">This is my Angular Capstone Project. I just finished adding the unit testing and E2E testing.
+                            <br>
+                            <br> Languages and skills used: </p>
+                    </div>
+                    <div class="modal-footer">
+
+                        <a href="http://mcooperstein.github.io/peTracker-angular-capstone/app/index.html" target="_blank" class="btn btn-default modal-btn">Visit Project</a>
+                        <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade in" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal1Label" style="display: block; padding-left: 0px;">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Angular To-Do List</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <p class="modal-text">This is a small project I made outside of the Thinkful course, just to test/re-inforce my understanding of Angular.
+                            <br>
+                            <br> Languages and skills used: </p>
+                    </div>
+                    <div class="modal-footer">
+
+                        <a href="http://mcooperstein.github.io/angular-to-do-list/" target="_blank" class="btn btn-default modal-btn">Visit Project</a>
+                        <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade in" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal1Label" style="display: block; padding-left: 0px;">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Flickr API project</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <p class="modal-text">This is a search app I made that uses Flickr's API to return images based on the user search term.
+                            <br>
+                            <br> Languages and skills used: </p>
+                    </div>
+                    <div class="modal-footer">
+
+                        <a href="https://mcooperstein.github.io/flickr-api/" target="_blank" class="btn btn-default modal-btn">Visit Project</a>
+                        <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade in" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal1Label" style="display: block; padding-left: 0px;">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Movie Quiz App</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <p class="modal-text">One of my first projects. I thought it might be good to include an early project to show my progress and give a sense of my improvement/development.
+                            <br>
+                            <br> Languages and skills used:?</p>
+                    </div>
+                    <div class="modal-footer">
+
+                        <a href="https://mcooperstein.github.io/thinkful-quiz-app/" target="_blank" class="btn btn-default modal-btn">Visit Project</a>
+                        <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
     <!-- /.container -->
+
+
+    <!-- Footer -->
+    <section id="contact">
+        <footer class="container-fluid footer">
+            <div class="footer-area">
+                <p>You can check out my other online profiles below, and/or connect with me via email.</p>
+                <ul class="footer-nav">
+                    <li class="footer-icons">
+                        <a href="https://github.com/mcooperstein" target="_blank">
+                            <i class="fa fa-github-square fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="footer-icons">
+                        <a href="https://www.linkedin.com/in/mcooperstein1990" target="_blank">
+                            <i class="fa fa-linkedin-square fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="footer-icons">
+                        <a href="https://angel.co/marc-cooperstein" target="_blank">
+                            <i class="fa fa-angellist fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="footer-icons">
+                        <a href="mailto:mcooperstein@gmail.com">
+                            <i class="fa fa-envelope fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p>Copyright &copy; mcooperstein.com 2016</p>
+            </div>
+
+        </footer>
+    </section>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Added JS -->
+    <script src="js/app.js"></script>
 
 </body>
 
