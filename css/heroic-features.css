@@ -1,151 +1,201 @@
-/*!
+    /*!
  * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
-    padding-top: 0px;
-    background-color: #f2f2f2;
-    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
+    body {
+        padding-top: 0px;
+        background-color: #222;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
 
-.hero-spacer {
-    margin-top: 50px;
-}
+    h3 {
+        color: #fff;
+        text-decoration: underline;
+    }
 
-.hero-feature {
-    margin-bottom: 30px;
-}
+    .project-names {
+        color: black;
+    }
 
-footer {
-    padding: 30px;
-    background-color: #222;
-    border-color: #080808;
-    width: 100%;
-    text-align: center;
-}
+    .hero-spacer {
+        margin-top: 50px;
+    }
 
-footer p {
-    color: #9d9d9d;
-    text-align: center;
-}
+    .hero-feature {
+        margin-bottom: 30px;
+    }
 
-ul {
-    margin-top: 0;
-    margin-bottom: 10px;
-    display: inline-block;
-}
+    footer {
+        padding: 30px;
+        background-color: #9d9d9d;
+        border-color: #080808;
+        width: 100%;
+        text-align: center;
+    }
 
-.footer-icons {
-    list-style-type: none;
-    text-align: center;
-    display: inline-block;
-}
+    .footer-p {
+        color: black;
+        text-align: center;
+    }
 
+    ul {
+        margin-top: 0;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
 
-/* My Added CSS */
+    .footer-icons {
+        list-style-type: none;
+        text-align: center;
+        display: inline-block;
+        color: black;
+    }
+    /* My Added CSS */
 
-.jumbotron {
-    background-image: url("../images/background2.jpeg");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: auto;
-    height: 45.938rem;
-}
+    .jumbotron {
+        background-image: url("../images/background2.jpeg");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: auto;
+        height: 45.938rem;
+    }
 
-header h1 {
-    text-align: center;
-}
+    header h1 {
+        text-align: center;
+    }
 
-img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
+    #skills {
+        color: black;
+    }
 
-#about p {
-    font-size: 1.25em;
-}
+    img-responsive {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
 
-.img-responsive {
-    margin-left: auto;
-    margin-right: auto;
-}
+    #about p {
+        font-size: 1.25em;
+        color: #9d9d9d;
+    }
 
-.list-group {
-    margin-left: auto;
-    margin-right: auto;
-}
+    .img-responsive {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.list-group-item {
-    display: inline-block;
-    font-size: 1.5em;
-    margin: 0.1em;
-    border-radius: 5px;
-}
+    .list-group {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.panel {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    background-color: gray;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-}
+    .list-group-item {
+        display: inline-block;
+        font-size: 1.5em;
+        margin: 0.1em;
+        border-radius: 5px;
+    }
 
+    .panel {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        background-color: #9d9d9d;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    }
+    /* -- Portfolio Buttons -- */
 
-/* -- Portfolio Buttons -- */
+    .btn-default,
+    .modal-btn {
+        background-color: #222;
+        border-color: #222;
+        color: #fff;
+    }
 
-.btn-default {
-    background-color: #ccc;
-    border-color: #ccc;
-}
+    .btn-default:hover,
+    .modal-btn:hover {
+        color: black;
+        background-color: #adadad;
+        border-color: #adadad;
+    }
 
-.btn-default:hover {
-    color: #333;
-    background-color: #e6e6e6;
-    border-color: #adadad;
-}
+    a,
+    a.btn.btn-default.modal-btn {
+        color: white;
+        text-decoration: none;
+    }
 
-a {
-    color: black;
-    text-decoration: none;
-}
+    a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    /* -- Font Awesome Icon Custom CSS -- */
 
-a:hover {
-    color: black;
-    text-decoration: underline;
-}
+    .fa {
+        display: inline-block;
+    }
 
+    .fa-github-square:before {
+        content: "\f092";
+        color: black;
+        margin-left: -35px;
+    }
 
-/* -- Font Awesome Icon Custom CSS -- */
+    .fa-linkedin-square:before {
+        content: "\f08c";
+        color: black;
+        margin: 10px;
+    }
 
-.fa {
-    display: inline-block;
-}
+    .fa-angellist:before {
+        content: "\f209";
+        color: black;
+        margin-right: 10px;
+    }
 
-.fa-github-square:before {
-    content: "\f092";
-    color: #9d9d9d;
-    margin-left: -35px;
-}
+    .fa-envelope:before {
+        content: "\f0e0";
+        color: black;
+    }
+    /* -- Media Queries for personal image and jumbotron header -- */
 
-.fa-linkedin-square:before {
-    content: "\f08c";
-    color: #9d9d9d;
-    margin: 10px;
-}
+    @media only screen and (max-width: 1199px) {
+        .img-responsive {
+            margin-left: auto;
+            margin-right: auto;
+            height: 380px;
+        }
+        .jumbotron h1 {
+            font-size: 4em;
+        }
+    }
 
-.fa-angellist:before {
-    content: "\f209";
-    color: #9d9d9d;
-    margin-right: 10px;
-}
+    @media only screen and (max-width: 992px) {
+        .img-responsive {
+            margin-left: auto;
+            margin-right: auto;
+            height: 370px;
+            width: 600px;
+        }
+        .jumbotron h1 {
+            font-size: 4em;
+        }
+    }
 
-.fa-envelope:before {
-    content: "\f0e0";
-    color: #9d9d9d;
-}
+    @media only screen and (max-width: 765px) {
+        .img-responsive {
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            width: 500px;
+        }
+        .jumbotron h1 {
+            font-size: 2.5em;
+            margin-top: 3em;
+        }
+    }

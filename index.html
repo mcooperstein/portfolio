@@ -76,10 +76,10 @@
         <!-- Title -->
         <section id="about">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <img class="img-responsive" src="images/headshot.jpg" alt="" height="400px" width="500px">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <h3>About Me:</h3>
                     <p>I am currently enrolled as a student in Thinkful's Front-End Web Development Career Path course. Outside of Thinkful, I put my web development skills to use by teaching kids how to code at the Coder School in San Mateo, CA. In my spare time, I've also built websites for friends and family, so I could get more experience with web development and accelerate the learning process. </p>
                     <p>Prior to pursuing a career in programming, I worked in a variety of roles (both in-house and corporate) for the Bay Area pizza chain, Amici's East Coast Pizzeria. One day, I hope to know as much about computer programming as I do about pizza. </p>
@@ -90,7 +90,7 @@
         <!-- Title -->
         <div class="row">
             <div class="col-lg-12 panel panel-inverse">
-                <h3>Development/Programming Skills:</h3>
+                <h3 id="skills">Development/Programming Skills:</h3>
                 <!--</div>-->
                 <div class="col-lg-12 panel-heading">
                     <ul class="list-group">
@@ -111,7 +111,7 @@
         <!-- Title -->
         <div class="row">
             <div class="col-lg-12">
-                <h3>Latest Projects:</h3>
+                <h3>&#9658; Latest Projects:</h3>
             </div>
         </div>
         <!-- /.row -->
@@ -122,17 +122,12 @@
 
                 <div class="col-md-4 col-sm-6 hero-feature">
                     <div class="thumbnail">
-                        <a href="www.codesitter.com">
-                            <img src="images/codesitter-edit.png" alt="">
-                        </a>
+                        <img src="images/codesit.png" alt="">
                         <div class="caption">
-                            <!--<a href="https://www.codesitter.com" target="_blank">-->
-                            <h3>codesitter.com</h3>
-                            <!--</a>-->
-                            <!--<p>A website connecting people to a baby-sitting service that also teaches kids about programming.</p>-->
-                            <button type="button" class="btn btn-default">
-                                <a href="#" data-toggle="modal" data-target="#modal1">More Info</a>
-                            </button>
+                            <h3 class="project-names">codesitter.com</h3>
+                            <a href="#" data-toggle="modal" data-target="#modal1">
+                                <button type="button" class="btn btn-default">More Info</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -141,23 +136,23 @@
                     <div class="thumbnail">
                         <img src="images/credible.png">
                         <div class="caption">
-                            <h3>crediblearrangements.com</h3>
-                            <button type="button" class="btn btn-default" id="button1">
-                                <a href="#" data-toggle="modal" data-target="#modal2">More Info</a>
-                            </button>
+                            <h3 class="project-names">crediblearrangements.com</h3>
+                            <a href="#" data-toggle="modal" data-target="#modal2">
+                                <button type="button" class="btn btn-default">More Info</button>
+                            </a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4 col-sm-6 hero-feature">
                     <div class="thumbnail">
-                        <img src="images/pet-tracker-edit.png" alt="">
+                        <img src="images/petracker.png" alt="">
                         <div class="caption">
-                            <h3>PeTracker</h3>
+                            <h3 class="project-names">PeTracker</h3>
                             <!--<p>An application that allows you to track your pet's daily needs, medical records, and appointments.</p>-->
-                            <button type="button" class="btn btn-default" id="button2">
-                                <a href="#" data-toggle="modal" data-target="#modal3">More Info</a>
-                            </button>
+                            <a href="#" data-toggle="modal" data-target="#modal3">
+                                <button type="button" class="btn btn-default">More Info</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -166,24 +161,24 @@
                     <div class="thumbnail">
                         <img src="images/to-do-list-edit.png" alt="">
                         <div class="caption">
-                            <h3>Angular To-Do List</h3>
+                            <h3 class="project-names">Angular To-Do List</h3>
                             <!--<p>A to-do list built with Angular.js</p>-->
-                            <button type="button" class="btn btn-default" id="button3">
-                                <a href="#" data-toggle="modal" data-target="#modal4">More Info</a>
-                            </button>
+                            <a href="#" data-toggle="modal" data-target="#modal4">
+                                <button type="button" class="btn btn-default">More Info</button>
+                            </a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4 col-sm-6 hero-feature">
                     <div class="thumbnail">
-                        <img src="images/flickr.png" alt="">
+                        <img src="images/soundcloud-api.png" alt="">
                         <div class="caption">
-                            <h3>Flickr API Project</h3>
+                            <h3 class="project-names">Soundcloud API Project</h3>
                             <!--<p>A to-do list built with Angular.js</p>-->
-                            <button type="button" class="btn btn-default" id="button3">
-                                <a href="#" data-toggle="modal" data-target="#modal5">More Info</a>
-                            </button>
+                            <a href="#" data-toggle="modal" data-target="#modal5">
+                                <button type="button" class="btn btn-default">More Info</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -192,11 +187,11 @@
                     <div class="thumbnail">
                         <img src="images/movie-quiz-edit.png" alt="">
                         <div class="caption">
-                            <h3>Movie Quiz App</h3>
+                            <h3 class="project-names">Movie Quiz App</h3>
                             <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
-                            <button type="button" class="btn btn-default" id="button4">
-                                <a href="#" data-toggle="modal" data-target="#modal6">More Info</a>
-                            </button>
+                            <a href="#" data-toggle="modal" data-target="#modal6">
+                                <button type="button" class="btn btn-default">More Info</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -215,9 +210,9 @@
 
                     </div>
                     <div class="modal-body">
-                        <p class="modal-text">This is a website I made for my sister based on my idea/encouragement that she should parlay her baby-sitting experience and coding skills into a small business.
+                        <p class="modal-text">This is a website I made for my sister based on my idea/encouragement that she should parlay her baby-sitting experience and coding skills into a small business. The website includes information about the unique "codesitting" service that is offered, as well as a contact form to get in touch with my sister.
                             <br>
-                            <br> Languages and skills used: HTML/CSS, Bootstrap, Formspree, Git/Github</p>
+                            <br> Languages and skills used: HTML/CSS, Bootstrap, Formspree, Git/Github, Deploying a website</p>
                     </div>
                     <div class="modal-footer">
 
@@ -236,9 +231,9 @@
 
                     </div>
                     <div class="modal-body">
-                        <p class="modal-text">This is a website I'm in the process of making for a friend. I already purchased the domain name, but am waiting to finish the site before pushing it to the live domain.
+                        <p class="modal-text">This is a website I'm in the process of making for a friend's flower arrangement business. The domain name is already purchased, but I am waiting to finish the site before pushing it to the live domain.
                             <br>
-                            <br> Languages and skills used: HTML/CSS, Bootstrap, Git/Github, photo editing?</p>
+                            <br> Languages and skills used: HTML/CSS, Bootstrap, Git/Github, photo editing</p>
                     </div>
                     <div class="modal-footer">
 
@@ -257,9 +252,9 @@
 
                     </div>
                     <div class="modal-body">
-                        <p class="modal-text">This is my Angular Capstone Project. I just finished adding the unit testing and E2E testing.
+                        <p class="modal-text">This is my Angular Capstone Project that I made in Thinkful's FEWD course. The application is intended to help document daily activities, medical records, and upcoming appointments for your pet(s). I need to add a backend database component to be able to save any of the added data that is generated. When I learn Node.js and Mongo.db, I will do so.
                             <br>
-                            <br> Languages and skills used: </p>
+                            <br> Languages and skills used: HTML/CSS, Javascript, Angular.js, Unit Testing, E2E Testing </p>
                     </div>
                     <div class="modal-footer">
 
@@ -278,9 +273,8 @@
 
                     </div>
                     <div class="modal-body">
-                        <p class="modal-text">This is a small project I made outside of the Thinkful course, just to test/re-inforce my understanding of Angular.
-                            <br>
-                            <br> Languages and skills used: </p>
+                        <p class="modal-text">This is an Angular.js to-do list app I made as an example for the Javascript coding camp that I am helping teach this summer.
+                            <br> Languages and skills used: HTML/CSS, Javascript, Angular.js</p>
                     </div>
                     <div class="modal-footer">
 
@@ -295,17 +289,17 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel">Flickr API project</h4>
+                        <h4 class="modal-title" id="myModalLabel">Soundcloud API project</h4>
 
                     </div>
                     <div class="modal-body">
-                        <p class="modal-text">This is a search app I made that uses Flickr's API to return images based on the user search term.
+                        <p class="modal-text">This is a search app I made that uses Soundcloud's API to find songs based on a band or song name that the user searches for. The search results include the song name, an image of the album cover associated with that song, and a play button that when clicked, redirects you to that song's url on Soundcloud.
                             <br>
-                            <br> Languages and skills used: </p>
+                            <br> Languages and skills used: HTML/CSS, jQuery, Javascript, API integration</p>
                     </div>
                     <div class="modal-footer">
 
-                        <a href="https://mcooperstein.github.io/flickr-api/" target="_blank" class="btn btn-default modal-btn">Visit Project</a>
+                        <a href="https://mcooperstein.github.io/soundcloud-api/" target="_blank" class="btn btn-default modal-btn">Visit Project</a>
                         <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
                     </div>
                 </div>
@@ -320,9 +314,9 @@
 
                     </div>
                     <div class="modal-body">
-                        <p class="modal-text">One of my first projects. I thought it might be good to include an early project to show my progress and give a sense of my improvement/development.
+                        <p class="modal-text">This is one of my first projects in THinkful's FEWD course. I chose to make a quiz about movies, since I'm a major film buff.
                             <br>
-                            <br> Languages and skills used:?</p>
+                            <br> Languages and skills used: HTML/CSS, jQuery, Javascript</p>
                     </div>
                     <div class="modal-footer">
 
@@ -341,7 +335,7 @@
     <section id="contact">
         <footer class="container-fluid footer">
             <div class="footer-area">
-                <p>You can check out my other online profiles below, and/or connect with me via email.</p>
+                <p class="footer-p">You can check out my other online profiles below, and/or connect with me via email.</p>
                 <ul class="footer-nav">
                     <li class="footer-icons">
                         <a href="https://github.com/mcooperstein" target="_blank">
@@ -364,7 +358,7 @@
                         </a>
                     </li>
                 </ul>
-                <p>Copyright &copy; mcooperstein.com 2016</p>
+                <p class="footer-p">Copyright &copy; mcooperstein.com 2016</p>
             </div>
 
         </footer>
