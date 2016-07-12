@@ -11,12 +11,17 @@
     }
 
     h3 {
-        color: #fff;
+        color: #fefbf7;
         text-decoration: underline;
     }
 
     .project-names {
         color: black;
+        text-decoration: none;
+    }
+
+    .thumbnail {
+        background-color: #fefbf7;
     }
 
     .hero-spacer {
@@ -80,6 +85,7 @@
     #about p {
         font-size: 1.25em;
         color: #9d9d9d;
+        /*color: #fefbf7;*/
     }
 
     .img-responsive {
@@ -114,7 +120,7 @@
     .modal-btn {
         background-color: #222;
         border-color: #222;
-        color: #fff;
+        color: #fefbf7;
     }
 
     .btn-default:hover,
@@ -122,6 +128,10 @@
         color: black;
         background-color: #adadad;
         border-color: #adadad;
+    }
+
+    a.page-scroll {
+        transition: all 0.5s;
     }
 
     a,
@@ -164,22 +174,27 @@
     }
     /* -- Media Queries for personal image and jumbotron header -- */
 
-    @media only screen and (max-width: 1199px) {
+    @media (max-width: 1199px) {
         .img-responsive {
             margin-left: auto;
             margin-right: auto;
-            height: 380px;
+            height: 300px;
         }
         .jumbotron h1 {
             font-size: 4em;
         }
+        #about p {
+            font-size: 1.08em;
+            color: #9d9d9d;
+            /*color: #fefbf7;*/
+        }
     }
 
-    @media only screen and (max-width: 992px) {
+    @media (max-width: 992px) {
         .img-responsive {
             margin-left: auto;
             margin-right: auto;
-            height: 370px;
+            height: 350px;
             width: 600px;
         }
         .jumbotron h1 {
@@ -187,7 +202,7 @@
         }
     }
 
-    @media only screen and (max-width: 765px) {
+    @media (max-width: 765px) {
         .img-responsive {
             margin-left: auto;
             margin-right: auto;
@@ -197,5 +212,14 @@
         .jumbotron h1 {
             font-size: 2.5em;
             margin-top: 3em;
+        }
+    }
+
+    @media (max-width: 545px) {
+        .img-responsive {
+            margin-left: auto;
+            margin-right: auto;
+            height: 250px;
+            width: 450px;
         }
     }
