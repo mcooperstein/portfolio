@@ -5,10 +5,4 @@ $(document).ready(function () {
     $('#modal4').hide();
     $('#modal5').hide();
     $('#modal6').hide();
-    /*$('#btn1').click(function () {
-        $('#modal1').toggle();
-    });
-    $('#btn2').click(function () {
-        $('#modal2').toggle();
-    });*/
 });
