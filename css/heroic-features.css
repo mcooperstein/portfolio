@@ -10,6 +10,14 @@
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     }
 
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        padding-top: 15px;
+        margin-left: auto;
+    }
+
     h3 {
         color: #fefbf7;
         text-decoration: underline;
