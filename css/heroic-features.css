@@ -225,4 +225,7 @@
             height: 250px;
             width: 450px;
         }
+        .modal-content {
+            margin-top: 200px;
+        }
     }
