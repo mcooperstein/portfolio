@@ -6,4 +6,7 @@ $(document).ready(function () {
     $('#modal5').hide();
     $('#modal6').hide();*/
     $('.modal').hide();
+    /*if ('li#contact-contact.active') {
+        $('footer').css("background-color", "yellow");
+    }*/
 });
