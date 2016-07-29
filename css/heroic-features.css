@@ -1,233 +1,239 @@
-    /*!
+/*!
  * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-    body {
-        padding-top: 0px;
-        background-color: #222;
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
+body {
+    padding-top: 0px;
+    background-color: #222;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
 
-    .container {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        padding-top: 15px;
-        margin-left: auto;
-    }
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    padding-top: 15px;
+    margin-left: auto;
+}
 
-    h3 {
-        color: #fefbf7;
-        text-decoration: underline;
-    }
+h3 {
+    color: #fefbf7;
+    text-decoration: underline;
+}
 
-    .project-names {
-        color: black;
-        text-decoration: none;
-    }
+.project-names {
+    color: black;
+    text-decoration: none;
+}
 
-    .thumbnail {
-        background-color: #fefbf7;
-    }
+.thumbnail {
+    background-color: #fefbf7;
+}
 
-    .hero-spacer {
-        margin-top: 50px;
-    }
+.hero-spacer {
+    margin-top: 50px;
+}
 
-    .hero-feature {
-        margin-bottom: 30px;
-    }
+.hero-feature {
+    margin-bottom: 30px;
+}
 
-    footer {
-        padding: 30px;
-        background-color: #9d9d9d;
-        border-color: #080808;
-        width: 100%;
-        text-align: center;
-    }
+footer {
+    padding: 30px;
+    background-color: #9d9d9d;
+    border-color: #080808;
+    width: 100%;
+    text-align: center;
+}
 
-    .footer-p {
-        color: black;
-        text-align: center;
-    }
+.footer-p {
+    color: black;
+    text-align: center;
+}
 
-    ul {
-        margin-top: 0;
-        margin-bottom: 10px;
-        display: inline-block;
-    }
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: inline-block;
+}
 
-    .footer-icons {
-        list-style-type: none;
-        text-align: center;
-        display: inline-block;
-        color: black;
-    }
-    /* My Added CSS */
+.footer-icons {
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    color: black;
+}
 
-    .jumbotron {
-        background-image: url("../images/background2.jpeg");
-        background-position: center bottom;
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow: auto;
-        height: 45.938rem;
-    }
 
-    header h1 {
-        text-align: center;
-    }
+/* My Added CSS */
 
-    #skills {
-        color: black;
-    }
+.jumbotron {
+    background-image: url("../images/background2.jpeg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    height: 45.938rem;
+}
 
-    img-responsive {
-        display: block;
-        max-width: 100%;
-        height: auto;
-    }
+header h1 {
+    text-align: center;
+}
 
-    #about p {
-        font-size: 1.25em;
-        color: #9d9d9d;
-        /*color: #fefbf7;*/
-    }
+#skills {
+    color: black;
+}
 
+img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#about p {
+    font-size: 1.25em;
+    color: #9d9d9d;
+}
+
+.img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-group {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-group-item {
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 0.1em;
+    border-radius: 5px;
+}
+
+.panel {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #9d9d9d;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+
+/* -- Portfolio Buttons -- */
+
+.btn-default,
+.modal-btn {
+    background-color: #222;
+    border-color: #222;
+    color: #fefbf7;
+}
+
+.btn-default:hover,
+.modal-btn:hover {
+    color: black;
+    background-color: #adadad;
+    border-color: #adadad;
+}
+
+a.page-scroll {
+    transition: all 0.5s;
+}
+
+a,
+a.btn.btn-default.modal-btn {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+/* -- Font Awesome Icon Custom CSS -- */
+
+.fa {
+    display: inline-block;
+}
+
+.fa-github-square:before {
+    content: "\f092";
+    color: black;
+    margin-left: -35px;
+}
+
+.fa-linkedin-square:before {
+    content: "\f08c";
+    color: black;
+    margin: 10px;
+}
+
+.fa-angellist:before {
+    content: "\f209";
+    color: black;
+    margin-right: 10px;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+    color: black;
+}
+
+
+/* -- Media Queries for personal image and jumbotron header -- */
+
+@media (max-width: 1199px) {
     .img-responsive {
         margin-left: auto;
         margin-right: auto;
+        height: 300px;
     }
+    .jumbotron h1 {
+        font-size: 4em;
+    }
+    #about p {
+        font-size: 1.08em;
+        color: #9d9d9d;
+    }
+}
 
-    .list-group {
+@media (max-width: 992px) {
+    .img-responsive {
         margin-left: auto;
         margin-right: auto;
+        height: 350px;
+        width: 600px;
     }
+    .jumbotron h1 {
+        font-size: 4em;
+    }
+}
 
-    .list-group-item {
-        display: inline-block;
-        font-size: 1.5em;
-        margin: 0.1em;
-        border-radius: 5px;
+@media (max-width: 765px) {
+    .img-responsive {
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        width: 500px;
     }
+    .jumbotron h1 {
+        font-size: 2.5em;
+        margin-top: 3em;
+    }
+}
 
-    .panel {
-        margin-bottom: 20px;
-        margin-top: 20px;
-        background-color: #9d9d9d;
-        border: 1px solid transparent;
-        border-radius: 4px;
-        -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-        box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+@media (max-width: 545px) {
+    .img-responsive {
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px;
+        width: 450px;
     }
-    /* -- Portfolio Buttons -- */
-
-    .btn-default,
-    .modal-btn {
-        background-color: #222;
-        border-color: #222;
-        color: #fefbf7;
-    }
-
-    .btn-default:hover,
-    .modal-btn:hover {
-        color: black;
-        background-color: #adadad;
-        border-color: #adadad;
-    }
-
-    a.page-scroll {
-        transition: all 0.5s;
-    }
-
-    a,
-    a.btn.btn-default.modal-btn {
-        color: white;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: black;
-        text-decoration: underline;
-    }
-    /* -- Font Awesome Icon Custom CSS -- */
-
-    .fa {
-        display: inline-block;
-    }
-
-    .fa-github-square:before {
-        content: "\f092";
-        color: black;
-        margin-left: -35px;
-    }
-
-    .fa-linkedin-square:before {
-        content: "\f08c";
-        color: black;
-        margin: 10px;
-    }
-
-    .fa-angellist:before {
-        content: "\f209";
-        color: black;
-        margin-right: 10px;
-    }
-
-    .fa-envelope:before {
-        content: "\f0e0";
-        color: black;
-    }
-    /* -- Media Queries for personal image and jumbotron header -- */
-
-    @media (max-width: 1199px) {
-        .img-responsive {
-            margin-left: auto;
-            margin-right: auto;
-            height: 300px;
-        }
-        .jumbotron h1 {
-            font-size: 4em;
-        }
-        #about p {
-            font-size: 1.08em;
-            color: #9d9d9d;
-            /*color: #fefbf7;*/
-        }
-    }
-
-    @media (max-width: 992px) {
-        .img-responsive {
-            margin-left: auto;
-            margin-right: auto;
-            height: 350px;
-            width: 600px;
-        }
-        .jumbotron h1 {
-            font-size: 4em;
-        }
-    }
-
-    @media (max-width: 765px) {
-        .img-responsive {
-            margin-left: auto;
-            margin-right: auto;
-            height: 300px;
-            width: 500px;
-        }
-        .jumbotron h1 {
-            font-size: 2.5em;
-            margin-top: 3em;
-        }
-    }
-
-    @media (max-width: 545px) {
-        .img-responsive {
-            margin-left: auto;
-            margin-right: auto;
-            height: 250px;
-            width: 450px;
-        }
-    }
+}
