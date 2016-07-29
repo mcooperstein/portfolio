@@ -122,9 +122,6 @@
         -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
         box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
     }
-    /*.modal-dialog {
-        display: none;
-    }*/
     /* -- Portfolio Buttons -- */
 
     .btn-default,
@@ -233,7 +230,4 @@
             height: 250px;
             width: 450px;
         }
-        /*.modal-content {
-            margin-top: 200px;
-        }*/
     }
