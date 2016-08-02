@@ -97,6 +97,15 @@ img-responsive {
     color: #9d9d9d;
 }
 
+#resume {
+    color: #9d9d9d;
+    text-decoration: none;
+}
+
+#resume:hover {
+    color: white;
+}
+
 .img-responsive {
     margin-left: auto;
     margin-right: auto;
