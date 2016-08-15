@@ -51,7 +51,7 @@ footer {
 .footer-p {
     color: black;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.25em;
     /*font-family: monospace;*/
 }
 
@@ -135,6 +135,12 @@ img-responsive {
     box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
 
+.call-to-action {
+    background-color: #fefbf7;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
 
 /* -- Portfolio Buttons -- */
 
@@ -145,6 +151,7 @@ img-responsive {
     color: #fefbf7;
 }
 
+.btn.btn-default:hover,
 .btn-default:hover,
 .modal-btn:hover {
     color: black;
@@ -162,9 +169,10 @@ a.btn.btn-default.modal-btn {
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a.btn.btn-default.modal-btn:hover {
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
@@ -189,7 +197,7 @@ a:hover {
 .fa-angellist:before {
     content: "\f209";
     color: black;
-    margin-right: 10px;
+    margin-left: 5px;
 }
 
 .fa-envelope:before {
@@ -237,6 +245,10 @@ a:hover {
     .jumbotron h1 {
         font-size: 2.5em;
         margin-top: 3em;
+    }
+    .call-to-action {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
