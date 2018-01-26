@@ -55,6 +55,22 @@ footer {
     /*font-family: monospace;*/
 }
 
+.myFlexbox {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.skills {
+    padding: 15px 5px;
+    font-size: 1.25em;
+    width: 100px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
 ul {
     margin-top: 0;
     margin-bottom: 10px;
@@ -249,6 +265,15 @@ a.btn.btn-default.modal-btn:hover {
     .call-to-action {
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    .skills {
+        padding: 15px 5px;
+        font-size: 0.75em;
+        width: 75px;
+        text-align: center;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
     }
 }
 
