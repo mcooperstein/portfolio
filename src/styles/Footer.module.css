@@ -1,7 +1,7 @@
 .footer {
   background-color: var(--color-bg);
   border-top: 1px solid var(--color-border);
-  padding: 4rem 1.5rem;
+  padding: 2.916rem 1.5rem;
   text-align: center;
 }
 
@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.25rem;
+  gap: 1.125rem;
 }
 
 .tagline {

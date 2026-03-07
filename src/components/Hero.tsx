@@ -19,7 +19,7 @@ export default function Hero() {
           at scale.
         </h1>
         <p className={styles.subheadline}>
-          Based in the San Francisco Bay Area. Focused on fast, accessible, user-first web.
+          Based in the San Francisco Bay Area. Passionate about building fast, accessible, user-first web experiences.
         </p>
         <div className={styles.ctaGroup}>
           <a
