@@ -1,0 +1,87 @@
+.about {
+  padding: 6rem 1.5rem;
+  background-color: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.headshotPlaceholder {
+  width: 320px;
+  height: 380px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--color-surface-2), var(--color-border));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed var(--color-border);
+  max-width: 100%;
+}
+
+.headshotPlaceholder span {
+  color: var(--color-text-secondary);
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.headshot {
+  width: 320px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  max-width: 100%;
+}
+
+.bio h2 {
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+  letter-spacing: -0.02em;
+}
+
+.bio p {
+  color: var(--color-text-secondary);
+  margin-bottom: 1rem;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+.oldLink {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  transition: color 0.2s, gap 0.2s;
+}
+
+.oldLink:hover {
+  color: var(--color-accent-hover);
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .headshotPlaceholder,
+  .headshot {
+    width: 100%;
+    max-width: 320px;
+    height: 300px;
+  }
+}
